@@ -99,6 +99,6 @@ func main() {
 		println(err)
 	}
 
-	fmt.Println(part1(output))
-	fmt.Println(part2(output))
+	fmt.Println("Part1:", part1(output))
+	fmt.Println("Part2:", part2(output))
 }
